@@ -24,3 +24,23 @@ let someNumber= 19;
 let stringNumber= String(someNumber)
 console.log(stringNumber) // "19"
 console.log(typeof stringNumber); // string
+
+// ****************************** Operations ***************************
+
+
+console.log(2+2)
+console.log(2*2)
+console.log(2**3) // 2^3
+console.log(2/2)
+console.log(1+"2" + 3) //  123
+console.log("1"+2) // 12
+console.log("1" + 2+ 2) // 122
+console.log(1+3+"4")  // 44
+
+
+console.log("2"==2) // true, because conversion will happen automatically
+console.log("2"===2) // false, strict checking with it's data types occur
+
+
+
+
