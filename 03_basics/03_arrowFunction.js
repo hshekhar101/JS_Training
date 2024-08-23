@@ -27,7 +27,7 @@ fun1();
 
 const fun2 = ()=>{
     console.log("This is function 2")
-    console.log(this) // {} can't use this keyword in arrow function
+    console.log(this) // {} can't use "this" keyword in arrow function
 }
 fun2();
 
